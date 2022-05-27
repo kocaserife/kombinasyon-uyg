@@ -9,7 +9,7 @@ public class kombinasyone {
         
         do {
             System.out.print("r' yaz: ");
-            r = sc.nextInt();
+            r = input.nextInt();
         } while (r > n);
               
         for (int i = 1; i <= n; i++) {
