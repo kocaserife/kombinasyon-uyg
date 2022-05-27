@@ -6,8 +6,12 @@ public class kombinasyone {
 
         System.out.print("n yaz: ");
         n = input.nextInt();
-        System.out.print("r' yaz: ");
-        r = input.nextInt();
+        
+        do {
+            System.out.print("r' yaz: ");
+            r = input.nextInt();
+        } while (r > n);
+              
         for (int i = 1; i <= n; i++) {
             f1 = f1 * i;
         }
